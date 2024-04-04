@@ -3,7 +3,7 @@
  body 
 {
         background-color: white ;
-  background-image: linear-gradient(to right, white, yellow);
+  background-image: linear-gradient(to right, white, rgb(27, 199, 251));
  text-align: center;
 }
  h {
