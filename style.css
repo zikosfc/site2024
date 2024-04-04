@@ -6,13 +6,13 @@
   background-image: linear-gradient(to right, white, yellow);
  text-align: center;
 }
- div {
+ h {
   background-color: black;
   margin: 0px;
   height: 160%;
   color: rgb(255,255,255);
   text-align: center;
-  font-size: 300%;
+  font-size: 00%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
