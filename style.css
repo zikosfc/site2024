@@ -1,46 +1,74 @@
-@charset "UTF-8";
-
- body 
-{
-        background-color: white ;
-  background-image: linear-gradient(to right, white, rgb(27, 199, 251));
- text-align: center;
-}
- h {
-  background-color: black;
-  margin: 0px;
-  height: 160%;
-  color: rgb(255,255,255);
-  text-align: center;
-  font-size: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Estilização geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 0 1rem;
+}
+
+/* Estilização do cabeçalho */
+h1 {
+    font-size: 2rem;
+    color: #000;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Estilização do parágrafo */
 p {
-
-  color:  rgb(0, 0, 0);
-  text-align: center;
-  font-size: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height:1.5em;
+    margin: 1rem 0;
+    line-height: 1.6;
 }
 
-li {
- color:  rgb(0, 0, 0);
-  text-align: center;
-    text-decoration: none;
-  font-size: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height:1.5em;}
-
-        a {
-         color:  rgb(0, 0, 0);
-          text-align: center;
-           text-decoration: none;
-  font-size: 90%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height:1.5em;}
-
+/* Imagens */
 img {
- text-align: center;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Lista de links */
+li {
+    list-style: none;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+li a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+/* Adicionando um pouco de espaçamento extra */
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
